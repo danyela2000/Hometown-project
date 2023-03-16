@@ -1,0 +1,131 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border:3px solid #2c380d;
+}
+
+#avatar:hover{
+    box-shadow: 0 0 20px rgba(12, 12, 12, 0.2); 
+    transition: box-shadow 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    transition: transform .10s ease-in-out;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 260px; /* aici trebuia setata inaltimea, imaginea fiind prea lata (streching)*/
+    background-image: url(images/Brasov.jpg);
+    background-size: cover;
+    margin-bottom:40px;
+}
+
+#title {
+    background-color:#e3c08b;
+    padding:6px 12px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+    color:#753d23;
+}
+
+#title:hover {
+    background-color:#caad81;
+   
+}
+
+#description {
+    background-color:#744027;
+    padding:6px 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: #caad81;
+}
+
+#description:hover {
+   background-color:#603420;
+}
+
+#guide {
+
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    /* align-items: center; */
+    border-bottom:8px solid #121706;
+    border-radius: 10px;
+    margin: 40px auto ;
+    color:aliceblue;
+    text-shadow: 0px 0px 6px black;
+    text-align: center; /* cu text align elimin efectul de "streching" */
+    background-color: #1f2809;
+    padding:20px;
+}
+
+#guide:hover{
+    box-shadow: 0 0 20px rgba(12, 12, 12, 0.2); 
+    transition: box-shadow 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+.par {
+    font-style: italic;
+}
+
+#images {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 20px 30px 20px;
+    
+}
+
+#img_1, #img_2, #img_3, #img_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:150px;
+    
+}
+
+img:hover {
+    box-shadow: 0 0 20px rgba(12, 12, 12, 0.2); 
+    transition: box-shadow 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+
+h4 {
+    margin-bottom:0px ;
+}
+
+p {
+    margin-top:8px ;
+}
